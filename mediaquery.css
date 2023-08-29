@@ -1,0 +1,365 @@
+@media screen and (max-width: 600px) {
+  /* body{
+        background-color: red;
+    } */
+  nav {
+    display: none;
+  }
+
+  .navbar {
+    margin-left: 310px;
+  }
+  header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  header .left-logo {
+    width: 100px;
+  }
+  header .mid-text h1 {
+    font-size: 14px;
+  }
+  header .mid-text .mid-text-1 span {
+    font-size: 20px;
+  }
+  header .mid-text {
+    margin-left: 10px;
+  }
+  header .mid-text .sub-p {
+    font-size: 8px;
+  }
+  header .rigth-img {
+    width: 50px;
+    margin-right: 260px;
+  }
+  .line {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+  }
+
+  /* home media query */
+  .main {
+    display: grid;
+    overflow-x: hidden;
+    /* width: var(--container-width-sm); */
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  .main .left-main {
+    margin-left: 0;
+  }
+  .main .left-main video {
+    width: 340px;
+  }
+  .hading {
+    color: #e70a33;
+    margin-left: 18px;
+    font-size: 17px;
+  }
+  .heading1 {
+    color: #33bfe5;
+    font-size: 35px;
+  }
+  .silent-feature p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  .silent-feature .pre {
+    font-size: 1.1rem;
+  }
+
+  .about-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 13%;
+  }
+  .about-container .about-p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .about-container h3 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .about-container .sub-heading p {
+    font-size: 0.8rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-container .about-img {
+    display: grid;
+  }
+  .about-container .about-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-container .about-img img {
+    width: 90%;
+    min-height: 200px;
+  }
+
+  .gallery {
+    margin-bottom: 20px;
+  }
+  .gallery h2 {
+    font-size: 1.8rem;
+  }
+  .gallery-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+  }
+  .gallery .gallery-main .gallery-img a img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  .gallery .gallery-main .gallery-img a img:hover {
+    border-radius: 0;
+  }
+  .gallery-main {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .ceo-founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .founder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+
+  .founder .founder-img .founder-p {
+    font-size: 0.7rem;
+  }
+  .founder .founder-img .founder-pic {
+    width: 200px;
+    height: 200px;
+  }
+  .founder .founder-text .founder-head {
+    font-size: 1.35rem;
+    margin-top: 30px;
+    margin-bottom: 0.7rem;
+    font-weight: 800;
+  }
+  .founder .founder-text p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    font-weight: 500;
+  }
+
+  .CEO {
+    width: var(--container-width-sm);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .ceo-text {
+    margin-bottom: 0;
+  }
+  .ceo-text .ceo-head {
+    font-size: 1.35rem;
+    margin-bottom: 0.7rem;
+    font-weight: 800;
+  }
+  .ceo-text p {
+    font-weight: 500;
+  }
+  .ceo-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ceo-img img {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+  }
+  .ceo-img .ceo-p {
+    margin-bottom: 50px;
+  }
+
+  /* contact form */
+
+  .contect-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .img-last-logo {
+    width: 60px;
+    height: auto;
+  }
+  .left-hedings {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left-hedings .quick-links {
+    margin-top: 20px;
+    margin-right: 50px;
+  }
+
+  .e-icon-add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }  
+  .address{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .address pre{
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+  }
+  .contactus-icon{
+    margin-left: 6rem;
+  }
+
+    .links-short pre{
+      margin-right: 0.9rem;
+      font-size: 1rem;
+    }
+    .quick-links{
+      margin-right: 2rem;
+    }
+    .quick-links pre{
+      font-size: 1rem;
+
+    }
+  .ul-icon{
+    margin-top: 30px;
+    width: 220px;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+  
+  .get-link b{
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .get-link i{
+    margin-left: 50px;
+  }
+  .get-link .phone{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .get-link .email{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .ul-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .batch{
+    margin-left: 20px;
+  }
+  .batch h2{
+      font-size: 1rem;
+  }
+
+  .right-contect{
+    width: 100%;
+    margin-right: 100px;
+  }
+  .btn-submit{
+    width: fit-content;
+  }
+  .btn-submit i{
+    font-size: 15px;
+  }
+
+  .footer-text p{
+    font-size: 0.9rem;
+  }
+  .scrolltop{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  .form{
+    margin-left: 60px;
+  }
+  .text-copy{
+    font-size: 5px;
+  }
+  
+.text-copy{
+  text-align: center;
+}
+
+}
+
+@media screen and (max-width: 380px){
+  .ceo-founder{
+    background-color:#d0d0d0;
+}
+  .main {
+    display: grid;
+    overflow-x: hidden;
+    margin-left: 10px;
+  }
+  header .rigth-img img{
+    width: 40px;
+    margin-right: 10px;
+  }
+  header .left-logo {
+    width: 70px;
+  }
+  .main .left-main{
+    margin-left: 10px;
+  }
+  .main .left-main video {
+    width: 320px;
+    height: 1%;
+  }
+  .silent-feature .pre {
+    font-size: 1.05rem;
+  }
+  .founder .founder-text .founder-head, .ceo-text .ceo-head {
+    font-size: 1.1rem;
+  }
+  .founder .founder-text p, .ceo-text p{
+    font-size: 0.8rem;
+  }
+  .address{
+    margin-left: 8rem;
+  }
+
+}
